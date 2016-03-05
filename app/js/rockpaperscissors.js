@@ -29,7 +29,7 @@ function getPlayerMove(move) {
     if (move = !null) {
         return move;
     } else (move = null) {
-        return getInput();
+        getInput();
     }
     
 }
@@ -42,7 +42,7 @@ function getComputerMove(move) {
     if (move = !null) {
         return move;
     } else (move = null) {
-        return randomPlay();
+        randomPlay();
     }
 }
 
