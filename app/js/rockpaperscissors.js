@@ -28,7 +28,7 @@ function getPlayerMove(move) {
     if (move !== '') {
         return move;
     } else if (move === '') {
-        getInput();
+        return getInput();
     }
 }
 
@@ -40,7 +40,7 @@ function getComputerMove(move) {
     if (move !== '') {
         return move;
     } else if (move === '') {
-        randomPlay();
+        return randomPlay();
     }
 }
 
